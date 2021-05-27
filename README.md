@@ -2,6 +2,8 @@
 
 This project contains LinkedIn posts related to learning resources for new Technology, Design, Self Branding, Motivation etc. You can visit website [here](). Website contains Light and Dark mode theme which you can toggle as per your requirement.
 
+# Header Larning Image
+
 ![Header Learning Image](images/ajf013_dark.png)
 
 # Contributing
