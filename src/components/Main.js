@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
-import Header from './Header';
-import Landing from './Landing';
-import GenresList from './GenresList';
-import Footer from './Footer';
+// import Header from './Header';
+// import Landing from './Landing';
+// import GenresList from './GenresList';
+// import Footer from './Footer';
 import Home from './Home';
 import Posts from './Posts';
 import styled from 'styled-components';
-import {HashRouter, Switch, Route, Redirect, Router, BrowserRouter} from 'react-router-dom';
-import history from './../history';
+import {HashRouter, Route, Redirect} from 'react-router-dom';
+// import history from './../history';
 
 export const MainDiv = styled.div`
     width: 100%;
@@ -15,7 +15,6 @@ export const MainDiv = styled.div`
     justify-content: center;
     display: flex;
     flex-direction: column;
-	cursor: pointer;
 `;
 
 export default class Main extends Component {

@@ -4,9 +4,9 @@ import {Button} from 'reactstrap';
 // import {data} from '../Content';
 import {lightTheme, darkTheme, device} from '../theme';
 import {Fade} from 'react-reveal';
-import { Route, Redirect, Link, NavLink} from "react-router-dom";
-import Posts from './Posts';
-import history from "./../history";
+// import { Route, Redirect, Link, NavLink} from "react-router-dom";
+// import Posts from './Posts';
+// import history from "./../history";
 
 
 export const GenreDiv = styled.div`
@@ -45,13 +45,14 @@ export const GenreItem = styled.div`
 `;
 
 export const GenreButton = styled(Button)`
-    width: 60%;
+    width: 50%;
     margin: 10px;
-    border-radius: 20px;
-    font-size: 18px;
+    border-radius: 40px;
+    font-size: 20px;
     font-family: "Gilroy Light";
     font-weight: bold;
     letter-spacing: 1.4px;
+	cursor: pointer;
 `;
 
 function GenresList(props){
@@ -64,7 +65,7 @@ function GenresList(props){
 							<GenreItem>
 								<Fade bottom duration="3000" distance="20px">
 									{/* <NavLink to="/tech"> */}
-									<a href="/ajf013/#/tech" style={{ textDecoration: "none" }}>
+									<a href="#/tech" style={{ textDecoration: "none" }}>
 									<GenreButton
 										style={{
 											background: opp.body,
@@ -86,7 +87,7 @@ function GenresList(props){
 							<GenreItem>
 								<Fade bottom duration="3000" distance="20px">
 									{/* <NavLink to="/design"> */}
-									<a href="/ajf013/#/design" style={{ textDecoration: "none" }}>
+									<a href="#/design" style={{ textDecoration: "none" }}>
 									<GenreButton
 										style={{
 											background: opp.body,
@@ -108,7 +109,7 @@ function GenresList(props){
 							<GenreItem>
 								<Fade bottom duration="3000" distance="20px">
 									{/* <NavLink to="/motivation"> */}
-									<a href="/ajf013/#/motivation" style={{ textDecoration: "none" }}>
+									<a href="#/motivation" style={{ textDecoration: "none" }}>
 									<GenreButton
 										style={{
 											background: opp.body,
@@ -127,10 +128,11 @@ function GenresList(props){
 									{/* </NavLink> */}
 								</Fade>
 							</GenreItem>
+
 							<GenreItem>
 								<Fade bottom duration="3000" distance="20px">
 									{/* <NavLink to="/selfbranding"> */}
-									<a href="/ajf013/#/selfbranding" style={{ textDecoration: "none" }}>
+									<a href="#/selfbranding" style={{ textDecoration: "none" }}>
 									<GenreButton
 										style={{
 											background: opp.body,

@@ -4,8 +4,8 @@ import {device} from '../theme';
 import StarButton from './StarButton';
 import SocialMedia from './SocialMedia';
 import {Fade} from 'react-reveal';
-import Typewriter from "react-simple-typewriter";
-import "react-simple-typewriter/dist/index.css";
+import Typewriter from "typewriter-effect";
+
 
 export const LandingDiv = styled.div`
 					width: 60%;
@@ -53,19 +53,14 @@ export default class Landing extends Component {
         return (
 					<LandingDiv>
 						<Fade bottom duration="1500" distance="40px">
-							{/* <Title>
-								Hope You Find the Answers of All Your Questions Here!
-							</Title> */}
 							<h1 style={{paddingTop: '3rem', margin: 'auto 0', marginleft: '40px', color:'blueviolet'}}>
 							<Typewriter 
-								loop
-								cursorcursorStyle="_"
-								typeSpeed={80}
-								deleteSpeed={40}
-								delaySpeed={1000}
-								words={['Hope you find the answers of All your Questions here!']}
-								></Typewriter>
-
+							options={{
+    						strings: ['Hope you find the answers for all your Questions!'],
+							pauseFor:2000,
+    						autoStart: true,
+    						loop: true,
+  							}} />
 							</h1>
 						</Fade>
 						<Fade bottom duration="2500" distance="20px">

@@ -15,7 +15,8 @@
     "react-scripts": "3.4.1",
     "react-simple-typewriter": "^1.0.13",
     "reactstrap": "^8.4.1",
-    "styled-components": "^5.1.1"
+    "styled-components": "^5.1.1",
+    "typewriter-effect": "^2.17.0"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -6,7 +6,7 @@ import {lightTheme, darkTheme} from './theme';
 import {GlobalStyles} from './global';
 import Main from './components/Main.js';
 import Typewriter from "react-simple-typewriter";
-import "react-simple-typewriter/dist/index.css";
+
 
 function App() {
 

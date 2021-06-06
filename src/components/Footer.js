@@ -21,6 +21,6 @@ export const FooterText = styled.h3`
 
 export default class Footer extends Component{
     render(){
-        return <FooterText>Made with ❤️ By <a href="https://franciscruz.netlify.app/" target="_blank" rel="noopenner noreferrer">AJF013</a></FooterText>;
+        return <FooterText>Made with 💜 By <a href="https://franciscruz.netlify.app/" target="_blank" rel="noopenner noreferrer">AJF013</a></FooterText>;
     }
 }
